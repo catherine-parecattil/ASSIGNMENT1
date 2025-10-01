@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>STUDENT REGISTRATION PAGE</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="form-box">
+    <h1>STUDENT REGISTRATION</h1>
+    <form>
+      <div class="form-group">
+        <label>Full Name</label>
+        <input type="text" name="fullname" required>
+      </div>
+      <div class="form-group">
+        <label>Email</label>
+        <input type="email" name="email" required>
+      </div>
+      <div class="form-group">
+        <label>Password</label>
+        <input type="password" name="password" required>
+      </div>
+      <div class="form-group">
+        <label>Confirm</label>
+        <input type="password" name="confirm" required>
+      </div>
+      <div class="form-group">
+        <label>Gender</label>
+        <div class="options">
+          <input type="radio" name="gender" value="Male"> Male
+          <input type="radio" name="gender" value="Female"> Female
+          <input type="radio" name="gender" value="Other"> Other
+        </div>
+      </div>
+      <div class="form-group">
+            <label>Course</label>
+            <select name="course">
+                <option>--Select--</option> 
+                <option>MCA</option>
+                <option>MSc</option>
+                <option>BCA</option>
+                <option>Other</option>
+            </select>
+      </div>
+      <div class="form-group">
+        <label>Year</label>
+        <select name="year">
+                <option>--Select--</option> 
+                <option>First</option>
+                <option>Second</option>
+                <option>Third</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label>Skills</label><br>
+        <div class="options">
+          <input type="checkbox" name="skills" value="Java"> Java
+          <input type="checkbox" name="skills" value="Python"> Python
+          <input type="checkbox" name="skills" value="HTML/CSS"> HTML/CSS
+          <input type="checkbox" name="skills" value="JavaScript"> JavaScript
+          <input type="checkbox" name="skills" value="Node.js"> Node.js
+          <input type="checkbox" name="skills" value="C"> C
+        </div>
+      </div>
+      <div class="form-group">
+        <button type="submit">Register</button>
+      </div>
+    </form>
+  </div>
+</body>
+<script src="script.js"></script>
+</html>

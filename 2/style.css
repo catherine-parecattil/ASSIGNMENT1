@@ -1,0 +1,45 @@
+body {
+    background:url("https://img.freepik.com/premium-vector/mountain-range-rises-background-with-solitary-tree-prominently-positioned-foreground-flat-vector-illustration_674398-10552.jpg")  no-repeat center center fixed;
+    background-color: black;
+    background-size: cover;
+}
+.form-box {
+  width: 400px;
+  margin: 60px auto;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.592);
+  border-radius: 8px;
+}
+h1 {
+  text-align: center;
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+.form-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+.form-group label {
+  width: 120px; 
+  font-weight: bold;
+}
+.form-group input,
+.form-group select {
+  flex: 1;
+  padding: 5px;
+  background: rgba(255, 255, 255, 0.592);
+  border-radius: 5px;
+}
+button {
+  width: 100%;
+  padding: 8px;
+  background: #256794;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+button:hover {
+  background: #457fa0;
+}
